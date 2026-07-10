@@ -1,1 +1,15 @@
-{"name":"Pit Stop Coffee Shop","short_name":"Pit Stop Coffee","start_url":"/","display":"standalone","background_color":"#090909","theme_color":"#090909","icons":[{"src":"/favicon.svg","sizes":"any","type":"image/svg+xml"}]}
+{
+  "name": "Pit Stop Coffee",
+  "short_name": "Pit Stop Coffee",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060606",
+  "theme_color": "#060606",
+  "icons": [
+    {
+      "src": "assets/pit-stop-logo.webp",
+      "sizes": "any",
+      "type": "image/webp"
+    }
+  ]
+}

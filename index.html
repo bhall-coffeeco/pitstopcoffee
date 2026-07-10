@@ -3,160 +3,391 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pit Stop Coffee Shop | Mobile Coffee Cart in Springfield, MO</title>
-  <meta name="description" content="Pit Stop Coffee Shop brings a full mobile espresso bar to weddings, workplaces, church events, markets, and private gatherings around Springfield, Missouri.">
-  <meta name="theme-color" content="#090909">
-  <meta property="og:title" content="Pit Stop Coffee Shop">
-  <meta property="og:description" content="A mobile espresso bar built to make Springfield events more memorable.">
+  <title>Pit Stop Coffee | Mobile Coffee Cart in Springfield, MO</title>
+  <meta name="description" content="Pit Stop Coffee is a mobile coffee cart serving handcrafted hot and iced drinks at weddings, workplaces, church events, markets, and private gatherings around Springfield, Missouri.">
+  <meta name="theme-color" content="#070707">
+  <link rel="canonical" href="https://pitstopcoffee.co/">
+  <meta property="og:title" content="Pit Stop Coffee | Fuel Your Day">
+  <meta property="og:description" content="Bring a complete coffee-shop experience to your next Springfield-area event.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://pitstopcoffee.co/">
-  <meta property="og:image" content="https://pitstopcoffee.co/social-preview.svg">
-  <link rel="canonical" href="https://pitstopcoffee.co/">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:image" content="https://pitstopcoffee.co/assets/social-preview.jpg">
+  <link rel="icon" href="assets/pit-stop-logo.webp">
+  <script>document.documentElement.classList.add("js");</script>
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"FoodEstablishment","name":"Pit Stop Coffee Shop","url":"https://pitstopcoffee.co/","description":"Mobile coffee cart and espresso catering serving Springfield, Missouri.","servesCuisine":"Coffee","areaServed":{"@type":"City","name":"Springfield","addressRegion":"MO"},"sameAs":[]}
+  {
+    "@context":"https://schema.org",
+    "@type":"FoodEstablishment",
+    "name":"Pit Stop Coffee",
+    "url":"https://pitstopcoffee.co/",
+    "email":"info@pitstopcoffee.co",
+    "description":"Mobile coffee cart serving Springfield, Missouri.",
+    "servesCuisine":"Coffee",
+    "areaServed":{"@type":"City","name":"Springfield","addressRegion":"MO"}
+  }
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="announcement"><span class="announcement-dot" aria-hidden="true"></span>Serving Springfield, Missouri · Launching soon</div>
 
-  <header class="site-header" id="top">
-    <a class="logo" href="#top" aria-label="Pit Stop Coffee Shop home">
-      <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 52 52"><path d="M7 37h38l-4.2-20H11.2L7 37Z" fill="currentColor"/><path d="M16 17V9h20v8M14 37v6M38 37v6" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M18 23h16M16.5 29h19" fill="none" stroke="#fff" stroke-width="3"/></svg></span>
-      <span class="logo-type"><strong>PIT STOP</strong><small>COFFEE SHOP</small></span>
+  <div class="topbar">
+    <span class="status-dot" aria-hidden="true"></span>
+    Springfield, Missouri · Launching soon
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Pit Stop Coffee home">
+      <img src="assets/pit-stop-logo.webp" alt="Pit Stop Coffee">
     </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
-    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
-      <a href="#events">Events</a><a href="#menu">Menu</a><a href="#about">Our Story</a><a href="#faq">FAQ</a><a class="button button-small" href="#quote">Get a Quote</a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+      <b class="sr-only">Open navigation</b>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#events">Events</a>
+      <a href="#menu">Menu</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#story">Our Story</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-small" href="#quote">Get a Written Quote</a>
     </nav>
   </header>
 
   <main id="main">
-    <section class="hero">
-      <div class="hero-grid">
+    <section class="hero" id="top">
+      <div class="hero-inner">
         <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span> Mobile espresso catering</p>
-          <h1>Make your event the one people <em>remember.</em></h1>
-          <p class="hero-lead">A full coffee-shop experience brought directly to your guests—handcrafted espresso drinks, a polished mobile cart, and friendly service from start to finish.</p>
+          <p class="eyebrow"><i></i> Mobile coffee cart · Springfield, MO</p>
+          <h1>Fuel your day.<br><span>Upgrade your event.</span></h1>
+          <p class="hero-lead">
+            We bring handcrafted espresso drinks, a polished mobile setup, and friendly
+            service directly to weddings, workplaces, church events, markets, and celebrations.
+          </p>
           <div class="hero-actions">
-            <a class="button" href="#quote">Get an Event Quote <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4"/></svg></a>
-            <a class="text-link" href="#menu">Explore the menu <span>↓</span></a>
+            <a class="btn" href="#quote">Get a Written Quote <span>→</span></a>
+            <a class="quiet-link" href="#menu">See the menu <span>↓</span></a>
           </div>
-          <div class="microproof" aria-label="Service highlights">
-            <div><strong>Local</strong><span>Springfield, MO</span></div><div><strong>Flexible</strong><span>Indoor or outdoor</span></div><div><strong>Fresh</strong><span>Made to order</span></div>
+          <div class="trust-row">
+            <div><strong>No required call</strong><small>Pricing sent in writing</small></div>
+            <div><strong>Indoor or outdoor</strong><small>Venue details confirmed first</small></div>
+            <div><strong>Made to order</strong><small>Hot or iced</small></div>
           </div>
         </div>
 
-        <div class="hero-visual reveal" aria-label="Pit Stop Coffee event experience">
-          <div class="speed-lines" aria-hidden="true"></div>
-          <div class="experience-card">
-            <div class="card-topline"><span class="live-pill"><i></i> EVENT READY</span><span class="card-number">417</span></div>
-            <div class="cup-scene" aria-hidden="true"><div class="steam steam-one"></div><div class="steam steam-two"></div><div class="cup"><div class="cup-badge">PS</div></div><div class="saucer"></div></div>
-            <div class="experience-copy"><p>YOUR MOBILE COFFEE BAR</p><h2>Great coffee.<br>Zero venue hassle.</h2></div>
-            <ul class="included-list"><li><span>01</span> Professional mobile setup</li><li><span>02</span> Handcrafted drinks on demand</li><li><span>03</span> A memorable guest experience</li></ul>
+        <div class="hero-media reveal">
+          <div class="photo-frame">
+            <img src="assets/menu-display.webp" alt="Pit Stop Coffee menu displayed on the mobile coffee cart">
+            <div class="photo-shade"></div>
+            <div class="photo-label">
+              <strong>YOUR EVENT, FULLY FUELED</strong>
+              <span>Mobile espresso service</span>
+            </div>
           </div>
-          <div class="checkered-block" aria-hidden="true"></div>
+          <div class="accent-card">
+            <span>Built to fit</span>
+            <strong>5 ft × 30 in</strong>
+            <small>Compact enough for most event-space doors</small>
+          </div>
         </div>
       </div>
-      <div class="hero-ticker" aria-hidden="true"><div><span>WEDDINGS</span><i>✦</i><span>WORKPLACES</span><i>✦</i><span>CHURCH EVENTS</span><i>✦</i><span>PRIVATE PARTIES</span><i>✦</i><span>POP-UPS</span><i>✦</i><span>COMMUNITY EVENTS</span><i>✦</i><span>WEDDINGS</span><i>✦</i><span>WORKPLACES</span><i>✦</i></div></div>
+      <div class="marquee" aria-hidden="true">
+        <div>
+          <span>WEDDINGS</span><b>•</b><span>WORKPLACES</span><b>•</b>
+          <span>CHURCH EVENTS</span><b>•</b><span>PRIVATE PARTIES</span><b>•</b>
+          <span>MARKETS</span><b>•</b><span>COMMUNITY EVENTS</span><b>•</b>
+          <span>WEDDINGS</span><b>•</b><span>WORKPLACES</span><b>•</b>
+        </div>
+      </div>
     </section>
 
-    <section class="audience-strip section-shell" aria-label="Perfect for"><p>Built for the moments that bring people together</p><div class="audience-list"><span>Weddings</span><span>Employee Appreciation</span><span>Church Gatherings</span><span>Showers</span><span>Markets</span></div></section>
+    <section class="audience-bar">
+      <div class="shell">
+        <p>Built for the places people gather</p>
+        <div>
+          <span>Weddings</span>
+          <span>Employee Appreciation</span>
+          <span>Church Gatherings</span>
+          <span>Showers & Parties</span>
+          <span>Markets & Pop-Ups</span>
+        </div>
+      </div>
+    </section>
 
-    <section class="section section-light" id="events">
-      <div class="section-shell">
+    <section class="section light" id="events">
+      <div class="shell">
         <div class="section-heading reveal">
-          <div><p class="eyebrow eyebrow-dark"><span></span> Coffee cart catering</p><h2>More than drinks.<br>A built-in experience.</h2></div>
-          <p>Give guests something they will actually talk about. We bring the café atmosphere, make every drink to order, and keep the process simple for the host.</p>
+          <div>
+            <p class="eyebrow dark"><i></i> Coffee cart catering</p>
+            <h2>More than coffee.<br>A reason to gather.</h2>
+          </div>
+          <p>
+            Guests get a drink made just for them. Hosts get a self-contained experience
+            that feels special without adding another complicated part to the event.
+          </p>
         </div>
-        <div class="service-grid">
-          <article class="service-card service-card-featured reveal"><div class="service-number">01</div><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 38h32M13 38V18h22v20M18 18v-5h12v5M18 25h12M18 31h8"/></svg></div><h3>Weddings & Celebrations</h3><p>Turn cocktail hour, the reception, or the morning-after gathering into a café your guests will love.</p><a href="#quote">Ask about your date <span>→</span></a></article>
-          <article class="service-card reveal"><div class="service-number">02</div><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 39h32M12 39V15h24v24M18 15V9h12v6M18 23h4M27 23h4M18 30h4M27 30h4"/></svg></div><h3>Corporate & Workplace</h3><p>Reward your team, welcome clients, energize a meeting, or make an ordinary workday feel special.</p><a href="#quote">Plan a workplace stop <span>→</span></a></article>
-          <article class="service-card reveal"><div class="service-number">03</div><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 8v32M8 24h32M12 36c4-5 8-7 12-7s8 2 12 7M14 17c3-3 6-5 10-5s7 2 10 5"/></svg></div><h3>Church & Community</h3><p>Create an easy gathering point for conferences, volunteer mornings, outreach events, and local markets.</p><a href="#quote">Tell us about the event <span>→</span></a></article>
+
+        <div class="event-grid">
+          <article class="event-card featured reveal">
+            <span class="card-number">01</span>
+            <div class="icon-circle" aria-hidden="true">♥</div>
+            <h3>Weddings & Celebrations</h3>
+            <p>Give guests a welcoming coffee bar during cocktail hour, the reception, a shower, or the morning after.</p>
+            <a href="#quote">Ask about your date <span>→</span></a>
+          </article>
+
+          <article class="event-card reveal">
+            <span class="card-number">02</span>
+            <div class="icon-circle" aria-hidden="true">↗</div>
+            <h3>Workplaces & Teams</h3>
+            <p>Make employee appreciation, client visits, meetings, and launch days feel less ordinary.</p>
+            <a href="#quote">Plan a workplace stop <span>→</span></a>
+          </article>
+
+          <article class="event-card reveal">
+            <span class="card-number">03</span>
+            <div class="icon-circle" aria-hidden="true">＋</div>
+            <h3>Church & Community</h3>
+            <p>Create an easy gathering point for conferences, volunteer mornings, outreach, markets, and local events.</p>
+            <a href="#quote">Tell us about the event <span>→</span></a>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section process-section">
-      <div class="section-shell process-grid">
-        <div class="process-intro reveal"><p class="eyebrow"><span></span> Simple from the start</p><h2>You handle the guest list.<br>We handle the coffee.</h2><p>No complicated planning. Share the basics, choose the experience, and we arrive ready to serve.</p><a class="button button-outline" href="#quote">Start Your Inquiry</a></div>
-        <ol class="process-list">
-          <li class="reveal"><span class="step-number">01</span><div><h3>Tell us about your event</h3><p>Send your date, location, estimated guest count, and the kind of experience you want.</p></div></li>
-          <li class="reveal"><span class="step-number">02</span><div><h3>Receive a custom quote</h3><p>We will recommend a setup that fits your event instead of forcing you into a one-size-fits-all package.</p></div></li>
-          <li class="reveal"><span class="step-number">03</span><div><h3>Enjoy the easiest part of hosting</h3><p>We arrive, set up, serve your guests, and leave the area clean when service is finished.</p></div></li>
+    <section class="section process">
+      <div class="shell process-grid">
+        <div class="process-copy reveal">
+          <p class="eyebrow"><i></i> Easy from the start</p>
+          <h2>You plan the gathering.<br>We handle the coffee.</h2>
+          <p>Share the basics online, receive pricing in writing, and decide on your own time—no sales call required.</p>
+          <a class="btn btn-outline" href="#quote">Start an Inquiry</a>
+        </div>
+
+        <ol class="steps">
+          <li class="reveal">
+            <span>01</span>
+            <div><h3>Tell us the event basics</h3><p>Date, location, guest count, service length, and event type are enough to get started.</p></div>
+          </li>
+          <li class="reveal">
+            <span>02</span>
+            <div><h3>Receive a written quote</h3><p>We send the expected cost and what is included, so you can review it without pressure.</p></div>
+          </li>
+          <li class="reveal">
+            <span>03</span>
+            <div><h3>Confirm when you are ready</h3><p>Once the details are approved, we prepare the cart, serve your guests, and clean up afterward.</p></div>
+          </li>
         </ol>
       </div>
     </section>
 
-    <section class="section section-red" id="menu">
-      <div class="section-shell">
-        <div class="menu-heading reveal"><div><p class="eyebrow eyebrow-white"><span></span> Menu preview</p><h2>Fast favorites.<br>Made fresh.</h2></div><p>A focused menu means better consistency and quicker service. Event selections can be tailored around your crowd and service style.</p></div>
-        <div class="menu-board reveal">
-          <div class="menu-column"><p class="menu-label">ESPRESSO</p><div class="menu-item"><span>Latte</span><i></i><small>Hot / Iced</small></div><div class="menu-item"><span>Vanilla Latte</span><i></i><small>Hot / Iced</small></div><div class="menu-item"><span>Mocha</span><i></i><small>Hot / Iced</small></div><div class="menu-item"><span>Americano</span><i></i><small>Hot / Iced</small></div></div>
-          <div class="menu-column"><p class="menu-label">COLD & CLASSIC</p><div class="menu-item"><span>Cold Brew</span><i></i><small>Bold & smooth</small></div><div class="menu-item"><span>Chai Latte</span><i></i><small>Hot / Iced</small></div><div class="menu-item"><span>Hot Chocolate</span><i></i><small>All ages</small></div><div class="menu-item"><span>Seasonal Feature</span><i></i><small>Rotating</small></div></div>
+    <section class="section menu-section" id="menu">
+      <div class="shell">
+        <div class="menu-header reveal">
+          <div>
+            <p class="eyebrow white"><i></i> Signature menu · 16 oz</p>
+            <h2>Find your next favorite stop.</h2>
+          </div>
+          <p>A focused menu keeps service moving while giving guests six distinct drinks to choose from.</p>
         </div>
-        <p class="menu-note reveal"><strong>Need something specific?</strong> Ask about flavor options, decaf, and event menu customization.</p>
+
+        <div class="menu-board reveal">
+          <article><span>01</span><div><h3>Midnight Drive</h3><p>Ube + Vanilla</p></div></article>
+          <article><span>02</span><div><h3>Burnout Blend</h3><p>Brown Sugar + Caramel + Spice</p></div></article>
+          <article><span>03</span><div><h3>White Flag</h3><p>White Chocolate + Vanilla</p></div></article>
+          <article><span>04</span><div><h3>Smooth Ride</h3><p>Vanilla</p></div></article>
+          <article><span>05</span><div><h3>Caramel Cruise</h3><p>Caramel + Vanilla</p></div></article>
+          <article><span>06</span><div><h3>Redline Mocha</h3><p>Raspberry + Mocha</p></div></article>
+        </div>
+
+        <div class="menu-options reveal">
+          <div><strong>HOT OR ICED</strong><span>Every signature drink</span></div>
+          <div><strong>WHOLE OR OAT</strong><span>Choose your milk</span></div>
+          <div><strong>MAKE IT YOURS</strong><span>Add a shot or flavor</span></div>
+        </div>
       </div>
     </section>
 
-    <section class="section section-light values-section">
-      <div class="section-shell"><div class="values-grid">
-        <div class="values-title reveal"><p class="eyebrow eyebrow-dark"><span></span> Why Pit Stop</p><h2>The details guests notice—and hosts appreciate.</h2></div>
-        <div class="value reveal"><span class="value-icon">01</span><h3>Presentation matters</h3><p>A clean, cohesive cart adds atmosphere instead of looking like an afterthought.</p></div>
-        <div class="value reveal"><span class="value-icon">02</span><h3>Made for the moment</h3><p>Drinks are prepared fresh, giving every guest a personal coffee-shop experience.</p></div>
-        <div class="value reveal"><span class="value-icon">03</span><h3>Easy for the host</h3><p>Clear communication, simple planning, and a self-contained service setup.</p></div>
-        <div class="value reveal"><span class="value-icon">04</span><h3>Local and personal</h3><p>Based in Springfield and built to serve the people and events in our community.</p></div>
-      </div></div>
-    </section>
+    <section class="section light pricing" id="pricing">
+      <div class="shell pricing-grid">
+        <div class="pricing-copy reveal">
+          <p class="eyebrow dark"><i></i> Pricing without the mystery</p>
+          <h2>Clear details.<br>No awkward sales call.</h2>
+          <p>
+            We agree: having to call just to learn whether a service fits your budget is frustrating.
+            Every inquiry receives a written quote with the expected cost and what is included.
+            We reply by email unless you specifically request a call.
+          </p>
+          <a class="btn" href="#quote">Get Written Pricing <span>→</span></a>
+        </div>
 
-    <section class="section story-section" id="about">
-      <div class="section-shell story-grid">
-        <div class="story-art reveal" aria-hidden="true"><div class="story-circle"><span>EST.</span><strong>417</strong><small>SPRINGFIELD, MO</small></div><div class="story-stripe"></div><div class="story-checkers"></div></div>
-        <div class="story-copy reveal"><p class="eyebrow"><span></span> Our story</p><h2>A better reason to make a pit stop.</h2><p>Pit Stop Coffee Shop is a Springfield-based mobile coffee cart created around a simple idea: great coffee should be able to meet people where they already gather.</p><p>The racing-inspired brand keeps it fun. The coffee, service, and care behind every event keep it worth coming back for.</p><a class="text-link text-link-light" href="#quote">Bring Pit Stop to your event <span>→</span></a></div>
+        <div class="price-factors reveal">
+          <p class="factor-title">Your quote is based on four simple details:</p>
+          <div><span>01</span><strong>Guest count</strong><small>How many people we are preparing to serve</small></div>
+          <div><span>02</span><strong>Service time</strong><small>How long the coffee bar will be open</small></div>
+          <div><span>03</span><strong>Location</strong><small>Travel and venue access around the Springfield area</small></div>
+          <div><span>04</span><strong>Service style</strong><small>Hosted event service or a public pay-per-drink pop-up</small></div>
+          <p class="launch-note">Starting package prices will be posted here once launch pricing is finalized.</p>
+        </div>
       </div>
     </section>
 
-    <section class="section section-light faq-section" id="faq">
-      <div class="section-shell faq-grid">
-        <div class="faq-heading reveal"><p class="eyebrow eyebrow-dark"><span></span> Good to know</p><h2>Common questions.</h2><p>Still unsure whether the cart fits your event? Send an inquiry and tell us what you are planning.</p></div>
+    <section class="section story" id="story">
+      <div class="shell story-grid">
+        <div class="logo-panel reveal">
+          <img src="assets/pit-stop-logo.webp" alt="Pit Stop Coffee logo">
+          <p>FUEL YOUR DAY</p>
+        </div>
+        <div class="story-copy reveal">
+          <p class="eyebrow"><i></i> Our story</p>
+          <h2>A coffee shop built to go where the day takes you.</h2>
+          <p>
+            Pit Stop Coffee started with a simple goal: bring handcrafted drinks and genuine
+            hospitality directly to the places where Springfield gathers.
+          </p>
+          <p>
+            Our compact, car-inspired cart turns a normal coffee break into a memorable part
+            of the event—without creating another complicated task for the host.
+          </p>
+          <a class="quiet-link light-link" href="#quote">Bring Pit Stop to your event <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light faq" id="faq">
+      <div class="shell faq-grid">
+        <div class="faq-copy reveal">
+          <p class="eyebrow dark"><i></i> Good to know</p>
+          <h2>Common questions.</h2>
+          <p>Still unsure whether the cart fits your event? Send the basics and we will answer by email.</p>
+        </div>
+
         <div class="accordion reveal">
-          <details><summary>What types of events do you serve?<span>+</span></summary><p>We are building service options for weddings, workplaces, church events, showers, parties, markets, and other gatherings around Springfield.</p></details>
-          <details><summary>Can the cart operate indoors?<span>+</span></summary><p>Many coffee-cart setups can work indoors or outdoors depending on venue access, available power, weather, and local requirements. We will confirm the setup during planning.</p></details>
-          <details><summary>How far in advance should I inquire?<span>+</span></summary><p>Earlier is better, especially for weekends and larger events. Sending an inquiry does not obligate you to book.</p></details>
-          <details><summary>Can the menu be customized?<span>+</span></summary><p>Event menus can be adjusted based on service time, guest count, season, and drink preferences. Include any special requests in your inquiry.</p></details>
-          <details><summary>How much does coffee cart catering cost?<span>+</span></summary><p>Pricing depends on guest count, service length, location, menu, and setup needs. Share the event details and we will build a custom quote.</p></details>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              Can the cart operate indoors?<span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. The cart is approximately 5 feet long and 30 inches wide, so it can pass through most commercial and event-space doors. Indoor service also requires a clear path, enough setup room, and suitable power. We confirm access with you or the venue before the event.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              What types of events do you serve?<span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Weddings, workplaces, church events, showers, private parties, markets, community events, and other gatherings around Springfield, Missouri.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              Do I have to schedule a phone call to get pricing?<span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>No. Submit the event details online and we will reply with written pricing by email. A call is only needed when you request one or when a complicated venue detail is easier to solve live.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              Can drinks be served hot or iced?<span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Our signature drinks can be prepared hot or iced, with whole or oat milk. Extra shots and flavor additions are also available.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              How far in advance should I inquire?<span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Earlier is better for weekends and larger events. Sending an inquiry does not obligate you to book.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="quote-section" id="quote">
-      <div class="section-shell quote-grid">
-        <div class="quote-copy reveal"><p class="eyebrow eyebrow-white"><span></span> Start planning</p><h2>Let’s make your event worth the stop.</h2><p>Share a few details below. The form creates a ready-to-send email so you can start the conversation without a complicated account or checkout.</p><div class="quote-promise"><span>✓</span><div><strong>No-obligation inquiry</strong><small>Start with the basics. Final details can come later.</small></div></div><div class="quote-promise"><span>✓</span><div><strong>Custom-fit recommendation</strong><small>Built around your event instead of a generic package.</small></div></div></div>
+      <div class="shell quote-grid">
+        <div class="quote-copy reveal">
+          <p class="eyebrow white"><i></i> Start planning</p>
+          <h2>Tell us where to make the next stop.</h2>
+          <p>Share a few event details. We will reply with written pricing and next steps—no required phone call and no pressure to book.</p>
+          <div class="promise"><span>✓</span><div><strong>Written pricing</strong><small>Review the details on your own time</small></div></div>
+          <div class="promise"><span>✓</span><div><strong>No-obligation inquiry</strong><small>You decide whether it fits</small></div></div>
+          <div class="promise"><span>✓</span><div><strong>Email-first communication</strong><small>We only call when requested</small></div></div>
+        </div>
+
         <form class="quote-form reveal" id="quote-form">
-          <div class="form-row"><label>Your name<input type="text" name="name" autocomplete="name" required placeholder="Jane Smith"></label><label>Email<input type="email" name="email" autocomplete="email" required placeholder="jane@example.com"></label></div>
-          <div class="form-row"><label>Event type<select name="eventType" required><option value="" selected disabled>Select one</option><option>Wedding</option><option>Corporate / Workplace</option><option>Church Event</option><option>Private Party / Shower</option><option>Market / Community Event</option><option>Other</option></select></label><label>Estimated guests<select name="guests" required><option value="" selected disabled>Select range</option><option>Under 50</option><option>50–100</option><option>101–200</option><option>201–350</option><option>350+</option><option>Not sure yet</option></select></label></div>
-          <div class="form-row"><label>Event date<input type="date" name="date"></label><label>Event city<input type="text" name="city" autocomplete="address-level2" placeholder="Springfield, MO"></label></div>
-          <label>What are you planning?<textarea name="message" rows="4" placeholder="Tell us about the venue, timing, and the experience you have in mind."></textarea></label>
-          <button class="button button-full" type="submit">Create My Inquiry <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4"/></svg></button>
-          <p class="form-fineprint">This opens a pre-filled email to <a href="mailto:info@pitstopcoffee.co">info@pitstopcoffee.co</a>. No information is stored on this website.</p>
+          <div class="form-row">
+            <label>Your name<input name="name" autocomplete="name" required placeholder="Jane Smith"></label>
+            <label>Email<input type="email" name="email" autocomplete="email" required placeholder="jane@example.com"></label>
+          </div>
+          <div class="form-row">
+            <label>Event type
+              <select name="eventType" required>
+                <option value="" selected disabled>Select one</option>
+                <option>Wedding</option>
+                <option>Workplace / Corporate</option>
+                <option>Church Event</option>
+                <option>Private Party / Shower</option>
+                <option>Market / Community Event</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>Estimated guests
+              <select name="guests" required>
+                <option value="" selected disabled>Select range</option>
+                <option>Under 50</option><option>50–100</option><option>101–200</option>
+                <option>201–350</option><option>350+</option><option>Not sure yet</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Event date<input type="date" name="date"></label>
+            <label>Service length
+              <select name="length">
+                <option value="">Not sure yet</option>
+                <option>1 hour</option><option>2 hours</option><option>3 hours</option>
+                <option>4+ hours</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Event city<input name="city" autocomplete="address-level2" placeholder="Springfield, MO"></label>
+            <label>Setup
+              <select name="setup">
+                <option value="">Not sure yet</option>
+                <option>Indoor</option><option>Outdoor</option><option>Both / Flexible</option>
+              </select>
+            </label>
+          </div>
+          <label>Event details<textarea name="message" rows="4" placeholder="Venue, timing, special requests, or anything else that would help."></textarea></label>
+          <button class="btn btn-full" type="submit">Create My Inquiry <span>→</span></button>
+          <p class="fineprint">This opens a pre-filled email to <a href="mailto:info@pitstopcoffee.co">info@pitstopcoffee.co</a>. Nothing is stored on this website.</p>
         </form>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="section-shell footer-grid">
-      <div><a class="logo logo-footer" href="#top" aria-label="Pit Stop Coffee Shop home"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 52 52"><path d="M7 37h38l-4.2-20H11.2L7 37Z" fill="currentColor"/><path d="M16 17V9h20v8M14 37v6M38 37v6" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M18 23h16M16.5 29h19" fill="none" stroke="#fff" stroke-width="3"/></svg></span><span class="logo-type"><strong>PIT STOP</strong><small>COFFEE SHOP</small></span></a><p>Mobile coffee cart and espresso catering<br>serving Springfield, Missouri.</p></div>
-      <div class="footer-links"><strong>Explore</strong><a href="#events">Events</a><a href="#menu">Menu</a><a href="#about">Our Story</a><a href="#faq">FAQ</a></div>
-      <div class="footer-links"><strong>Contact</strong><a href="mailto:info@pitstopcoffee.co">info@pitstopcoffee.co</a><a href="#quote">Request a quote</a></div>
+  <footer>
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <img src="assets/pit-stop-logo.webp" alt="Pit Stop Coffee">
+        <p>Mobile coffee cart serving Springfield, Missouri.</p>
+      </div>
+      <div><strong>Explore</strong><a href="#events">Events</a><a href="#menu">Menu</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></div>
+      <div><strong>Contact</strong><a href="mailto:info@pitstopcoffee.co">info@pitstopcoffee.co</a><a href="#quote">Get a written quote</a></div>
     </div>
-    <div class="section-shell footer-bottom"><p>© <span id="year"></span> Pit Stop Coffee Shop. All rights reserved.</p><p>Built for quick stops and good conversations.</p></div>
+    <div class="shell footer-bottom">
+      <span>© <b id="year"></b> Pit Stop Coffee. All rights reserved.</span>
+      <span>Fuel your day.</span>
+    </div>
   </footer>
 
-  <a class="mobile-cta" href="#quote">Get a Quote <span>→</span></a>
+  <a class="mobile-cta" href="#quote">Get Written Pricing <span>→</span></a>
   <script src="script.js"></script>
 </body>
 </html>
