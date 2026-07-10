@@ -1,20 +1,13 @@
-# Pit Stop Coffee Shop Website
+PIT STOP COFFEE SHOP — WEBSITE UPDATE
 
-## Files
-- `index.html` = website content
-- `styles.css` = website styling
+UPLOAD TO GITHUB
+1. Unzip this folder.
+2. Open your GitHub repository.
+3. Upload every file to the repository root, replacing the old files.
+4. Commit the changes. GitHub Pages should update in 1–3 minutes.
 
-## Cheapest hosting
-Use GitHub Pages, Cloudflare Pages, or Netlify for free hosting.
-
-## Quick GitHub Pages steps
-1. Create a GitHub account.
-2. Create a new repository named `pitstopcoffee`.
-3. Upload `index.html` and `styles.css`.
-4. Go to Settings → Pages.
-5. Set source to `Deploy from a branch`.
-6. Choose `main` and `/root`.
-7. Add your domain `pitstopcoffee.co` under Custom domain.
-
-## Domain DNS
-Wherever you bought pitstopcoffee.co, point it to GitHub Pages using GitHub's instructions.
+IMPORTANT
+- The inquiry form opens a pre-filled email to hello@pitstopcoffee.co.
+- Make sure that mailbox exists. To change it, replace that address in index.html and script.js.
+- No passwords, API keys, customer records, analytics, cookies, or payment data are stored.
+- The site includes responsive styling, search metadata, a sitemap, and your CNAME file.
