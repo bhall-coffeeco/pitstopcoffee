@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pit Stop Coffee Shop | Springfield, MO</title>
+  <meta name="description" content="Pit Stop Coffee Shop is a mobile coffee cart serving Springfield, MO. Book us for events, pop-ups, and local gatherings." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="brand">Pit Stop Coffee Shop</div>
+      <a href="#book" class="nav-button">Book Us</a>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Mobile coffee cart • Springfield, MO</p>
+      <h1>Fuel your day.</h1>
+      <p class="subtext">
+        Pit Stop Coffee Shop is a car-themed coffee cart bringing quality espresso drinks,
+        iced lattes, and friendly service to local events and pop-ups.
+      </p>
+      <div class="buttons">
+        <a href="#menu" class="primary">View Menu Preview</a>
+        <a href="#book" class="secondary">Book the Cart</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section">
+      <p class="eyebrow">Coming soon</p>
+      <h2>Built for markets, events, and quick coffee stops.</h2>
+      <p>
+        We’re getting ready to launch in the Springfield area. Follow along for updates,
+        opening dates, and where we’ll be parked first.
+      </p>
+    </section>
+
+    <section id="menu" class="section dark">
+      <p class="eyebrow">Menu preview</p>
+      <h2>Simple, fast, and delicious.</h2>
+      <div class="menu-grid">
+        <div class="card">
+          <h3>Latte</h3>
+          <p>Classic espresso with milk. Available hot or iced.</p>
+        </div>
+        <div class="card">
+          <h3>Vanilla Latte</h3>
+          <p>Smooth, sweet, and easy to love.</p>
+        </div>
+        <div class="card">
+          <h3>Mocha</h3>
+          <p>Chocolate, espresso, and milk.</p>
+        </div>
+        <div class="card">
+          <h3>Cold Brew</h3>
+          <p>Bold, refreshing, and ready to roll.</p>
+        </div>
+      </div>
+      <p class="small-note">Full menu coming soon.</p>
+    </section>
+
+    <section id="book" class="section">
+      <p class="eyebrow">Events & pop-ups</p>
+      <h2>Want Pit Stop Coffee at your event?</h2>
+      <p>
+        We’d love to serve coffee at markets, church events, office mornings,
+        weddings, parties, and local gatherings.
+      </p>
+      <a class="primary wide" href="mailto:hello@pitstopcoffee.co?subject=Booking%20Pit%20Stop%20Coffee">Email Us</a>
+      <p class="small-note">
+        Replace this email later with your real business email or contact form.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Pit Stop Coffee Shop • Springfield, MO</p>
+    <p><a href="https://instagram.com/pitstopcoffee417">Instagram</a></p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
